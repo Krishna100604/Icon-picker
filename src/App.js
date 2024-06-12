@@ -14,6 +14,9 @@ const App = () => {
 
   return (
     <div className="app">
+      <div className="title">
+        <h2>Click on the box below</h2>
+      </div>
       <div 
         className="icon-display" 
         onClick={() => setIsPickerOpen(true)}
